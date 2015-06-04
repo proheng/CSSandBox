@@ -28,6 +28,7 @@ namespace ConsoleApplication1
 
 
             Console.WriteLine(numbers.Where(new test().Predicate).Take(3).Sum());
+            Console.WriteLine(numbers.Count(i=>i%2==0));
 
             #endregion
 
